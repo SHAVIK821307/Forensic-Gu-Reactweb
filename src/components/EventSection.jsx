@@ -44,6 +44,7 @@ const EventSection = () => {
                 alt="Crime Scene Tape"
                 width={400}
                 height={200}
+                loading="lazy"
                 className="rounded-lg shadow-lg w-full object-cover"
               />
             </div>
@@ -52,6 +53,7 @@ const EventSection = () => {
               alt="Forensic Evidence"
               width={200}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
             <img
@@ -59,6 +61,7 @@ const EventSection = () => {
               alt="Forensic Artifact"
               width={200}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
           </div>
@@ -130,6 +133,7 @@ const EventSection = () => {
               alt="Crime Scene Tape"
               width={400}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
 
@@ -138,6 +142,7 @@ const EventSection = () => {
               alt="Crime Scene Tape"
               width={400}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
 
@@ -146,6 +151,7 @@ const EventSection = () => {
               alt="Forensic Evidence"
               width={200}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
             <img
@@ -153,6 +159,7 @@ const EventSection = () => {
               alt="Forensic Artifact"
               width={200}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
           </div>

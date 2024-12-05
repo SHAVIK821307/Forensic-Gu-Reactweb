@@ -11,6 +11,7 @@ const Home = () => {
       <div className="relative">
         <img
           src={sliderImg1}
+          loading="lazy"
           alt="Event Background"
           className="w-full h-full object-cover absolute z-0"
         />

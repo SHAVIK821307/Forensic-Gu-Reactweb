@@ -21,6 +21,7 @@ const Navbar = () => {
             onClick={() => navigate("/")}
             className="w-14 h-auto cursor-pointer"
             src={logo}
+            loading="lazy"
             alt="hero image"
           />
 

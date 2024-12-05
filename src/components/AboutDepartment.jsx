@@ -45,6 +45,7 @@ const AboutDepartment = () => {
               alt="Crime Scene Tape"
               width={400}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
             <img
@@ -52,6 +53,7 @@ const AboutDepartment = () => {
               alt="Crime Scene Tape"
               width={400}
               height={200}
+              loading="lazy"
               className="rounded-lg shadow-lg w-full object-cover"
             />
          
@@ -61,6 +63,7 @@ const AboutDepartment = () => {
             alt="Forensic Evidence"
             width={200}
             height={200}
+            loading="lazy"
             className="rounded-lg shadow-lg w-full object-cover"
           />
           <img
@@ -68,6 +71,7 @@ const AboutDepartment = () => {
             alt="Forensic Artifact"
             width={200}
             height={200}
+            loading="lazy"
             className="rounded-lg shadow-lg w-full object-cover"
           />
         </div>

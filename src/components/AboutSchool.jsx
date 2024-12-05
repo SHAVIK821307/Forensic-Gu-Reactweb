@@ -44,6 +44,7 @@ const AboutSchool = () => {
                 alt="Crime Scene Tape"
                 width={400}
                 height={200}
+                loading="lazy"
                 className="rounded-lg shadow-lg w-full object-cover"
               />
           </div>
@@ -55,6 +56,7 @@ const AboutSchool = () => {
             alt="Forensic Evidence"
             width={200}
             height={200}
+            loading="lazy"
             className="rounded-lg shadow-lg w-full object-cover"
           />
           <img
@@ -62,6 +64,7 @@ const AboutSchool = () => {
             alt="Forensic Artifact"
             width={200}
             height={200}
+            loading="lazy"
             className="rounded-lg shadow-lg w-full object-cover"
           />
         </div>
