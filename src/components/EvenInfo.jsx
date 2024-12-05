@@ -8,24 +8,24 @@ const EvenInfo = () => {
           <div className="flex items-center gap-2">
             <Calendar className="h-6 w-6 text-white" />
             <div>
-              <div className="text-[#5b6bff] text-sm font-medium">DATE</div>
-              <div className="text-white">February 8-9, 2025</div>
+              <div className="text-[#5b6bff] text-sm font-semibold">DATE</div>
+              <div className="text-white font-bold">February 8-9, 2025</div>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <MapPin className="h-6 w-6 text-white" />
             <div>
-              <div className="text-[#5b6bff] text-sm font-medium">Location</div>
-              <div className="text-white">Galgotias University</div>
+              <div className="text-[#5b6bff] text-sm font-semibold">Location</div>
+              <div className="text-white font-bold">Galgotias University</div>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <Mic className="h-6 w-6 text-white" />
             <div>
-              <div className="text-[#5b6bff] text-sm font-medium">Speakers</div>
-              <div className="text-white">25+ Speakers</div>
+              <div className="text-[#5b6bff] text-sm font-semibold">Speakers</div>
+              <div className="text-white font-bold">25+ Speakers</div>
             </div>
           </div>
         </div>
