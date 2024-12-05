@@ -2,6 +2,8 @@ import React from "react";
 import { Star } from "lucide-react";
 import sliderImg1 from "../assets/sliderimg11.png";
 import { FaQuestion } from "react-icons/fa6";
+import AboutSchool from "./AboutSchool";
+import AboutDepartment from "./AboutDepartment";
 const EventSection = () => {
   return (
     <>
@@ -105,7 +107,7 @@ const EventSection = () => {
               <div className="bg-[#5779FF] p-3 rounded-xl">
                 <FaQuestion className="h-6 w-6 text-white" />
               </div>
-              <h1 className="text-2xl font-bold">WHAT'S ABOUT EVENT</h1>
+              <h1 className="text-2xl font-bold">ABOUT THE UNIVERSITY</h1>
             </div>
 
             <p className="text-gray-600 leading-relaxed">
@@ -156,6 +158,8 @@ const EventSection = () => {
           </div>
         </div>
       </div>
+      <AboutSchool/>
+      <AboutDepartment/>
     </>
   );
 };
