@@ -3,7 +3,7 @@ import { Calendar, MapPin, Mic } from "lucide-react";
 const EvenInfo = () => {
   return (
     <>
-      <div className="bg-[#1e1b2e] block w-full md:max-w-3xl p-4 absolute md:left-1/2 bottom-0 md:rounded-tl-2xl md:rounded-tr-2xl md:translate-x-[-50%] z-40">
+      <div className="bg-[#1e1b2e] block w-full md:max-w-3xl p-4 md:absolute md:left-1/2 bottom-0 md:rounded-tl-2xl md:rounded-tr-2xl md:translate-x-[-50%] z-40">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-2">
             <Calendar className="h-6 w-6 text-white" />
